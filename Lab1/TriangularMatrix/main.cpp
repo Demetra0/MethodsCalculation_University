@@ -24,7 +24,7 @@ int main() {
 
     std::cout << *A << std::endl;
 
-    auto resultMethodHigher = A->methodHigher();
+    auto resultMethodHigher = A->methodLower();
     auto iter = resultMethodHigher.begin();
 
     std::cout << "RESULT:" << std::endl;
